@@ -1,2 +1,2 @@
 # ten-tasks-in-prolog
-Ten simple tasks in Porlog lang
+Ten simple tasks in Prolog lang
