@@ -11,6 +11,8 @@ gcd(X, Y, D) :-
     X1 is X - Y,
     gcd(X1, Y, D).
 
+gcd(X,X,X).
+
 %%%%% Fibonacci Sequence %%%%%
 fib(0, 0).
 fib(1, 1).
@@ -27,6 +29,9 @@ fib(N,Res) :-
 
 %%%%% is prime numbers %%%%%
 is_prime_nums(X, Y) :-
-    X < 0, write("X is less then 0!"), nl;
-    Y < 0, write("Y is less then 0!"), nl;
-    gcd(X, Y, D), D = 1.
+    X < 0, write("X is less then 0!"),nl;
+    Y < 0, write("Y is less then 0!"),nl;
+    gcd(X,Y,D),
+    D = 1.
+
+
