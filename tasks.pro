@@ -173,7 +173,7 @@ split(Middle, [H|T], L1, L2) :-
     
     split(Middle, T, L1, L2);
 
-%%%%% mult list %%%%%%
+%%%%% factors list %%%%%%
 factors(0,[0]).
 
 factors(1,[1]).
